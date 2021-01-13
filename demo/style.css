@@ -63,3 +63,15 @@ body{
 .demoDiv3{
     background: #74b9ff;
 }
+
+.demoDiv4{
+    background: #81ecec;
+}
+
+a, a:visited{
+    color: #fff;
+    text-decoration: none;
+    padding: 2rem;
+    background: #00cec9;
+    border-radius: 1rem;
+}
