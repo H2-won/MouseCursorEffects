@@ -1,11 +1,12 @@
 # MouseCursorEffects
+A Dot Following Mouse Cursor / Components Hovering Effect.
 
 ## Demo
 https://h2-won.github.io/HUI/cursorEffect
 
 ## How to use
 
-#### 1. Download the files in the Demo.
+#### 1. Clone or Download the files in the Demo.
 
 #### 2. Include the cursor div in the body (HTML).
 And specify the color and size of the cursor.
