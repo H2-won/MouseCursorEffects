@@ -16,7 +16,7 @@
         <div class="demoDiv2">Cursor Effect</div>
         <div class="demoDiv3">Emoji</div>
         <div class="demoDiv4">
-            <a class="someText" href="https://github.com/H2-won/MouseCursorEffects" target="_blank">Some Button</a>
+            <a class="someButton" href="https://github.com/H2-won/MouseCursorEffects" target="_blank">Some Button</a>
         </div>
     </div>
 
@@ -24,10 +24,17 @@
 
 <script src="/demo/index.js"></script>
 <script>
+
+    // cursorEffect(componentClassName, hoverText, hoverColor, hoverSize, hoverThickness, fontSize)
+
     cursorEffect('demoDiv1');
-    cursorEffect('demoDiv2', 'Hello', '#ffeaa7');
+
+    cursorEffect('demoDiv2', 'Hello !', '#ffeaa7', '6em', '6px', '1.5rem');
+
     cursorEffect('demoDiv3', '❤', 'pink', '0', '2.5px', '3rem');
-    cursorEffect('someText', 'Click!', 'lightcoral', '7em', '6px', '1.5rem');
+
+    cursorEffect('someButton', 'Click', 'lightcoral', '3em');
+    
 </script>
 
 </html>

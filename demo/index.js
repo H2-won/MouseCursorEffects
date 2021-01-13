@@ -10,7 +10,7 @@ document.addEventListener('mousemove', (e) => {
     cursor.style.top = e.pageY + 'px';
 })
 
-function cursorEffect(componentClassName, hoverText = '', hoverColor = cursorColor, hoverSize = '5em', hoverThickness = '2.5px', fontSize = '1rem') {
+function cursorEffect(componentClassName, hoverText = '', hoverColor = cursorColor, hoverSize = '5em', hoverThickness = '2.5px', fontSize = '1em') {
     
     component = document.querySelector(`.${componentClassName}`);
 
