@@ -1,35 +1,3 @@
-*{
-    /* hide cursor */
-    cursor: none;
-}
-
-body{
-    margin: 0;
-    padding: 0;
-    background: #fff;
-}
-
-.cursor {
-    /* set some z-index */
-    z-index: 100;
-    
-    position: fixed;
-    width: 0;
-    height: 0;
-    border-radius: 50%;
-    pointer-events: none;
-    transition: width 0.2s, height 0.2s;
-    transform: translate(-50%, -50%);
-
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-    /* if you want to change the innerText stlye */
-    font-size: 1rem;
-    font-weight: bold;
-}
-
 /* -------------------- just for demo -------------------- */
 .container{
     width: 100%;
@@ -44,8 +12,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     margin: 2rem;
     color: #fff;
     font-weight: 700;
