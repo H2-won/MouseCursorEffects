@@ -11,7 +11,7 @@ document.addEventListener('mousemove', (e) => {
 })
 
 function cursorEffect(componentClassName, hoverText = '', hoverColor = cursorColor, hoverSize = '5em', hoverThickness = '2.5px', fontSize = '1em') {
-    
+
     component = document.querySelector(`.${componentClassName}`);
 
     component.addEventListener('mouseover', () => {
